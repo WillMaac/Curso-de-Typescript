@@ -9,3 +9,6 @@ const escolhaACor = (cor: Cores): void => {
 };
 
 escolhaACor(Cores.Azul);
+
+
+

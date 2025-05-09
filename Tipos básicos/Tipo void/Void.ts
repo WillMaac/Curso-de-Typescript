@@ -4,7 +4,7 @@ function semRetorno(...args: string[]): void {
     console.log(args.join(''));
 }
 
-semRetorno('Will');
+semRetorno('Will', "ian", " Oliveira");
 
    //void em objetos//
 

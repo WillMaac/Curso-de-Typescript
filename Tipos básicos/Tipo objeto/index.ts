@@ -1,18 +1,20 @@
-const objetoA:{
+interface IObjeto {
   chaveA: string;
   chaveB: string;
   chaveC?:string;
-
-  [key: string]:unknown;
-} ={
+  chaveD:string;
+}
+const user:IObjeto ={
   chaveA: 'Valor A',
   chaveB: 'Valor B',
-};
-objetoA.chaveA = 'Novo valor'
-objetoA.chaveC= 'Nova chave';
-objetoA.chaveD= 'Nova chave';
+  chaveD: 'Valor D',
+}
+
+user.chaveA = 'Novo valor'
+user.chaveC= 'Nova chave C';
+user.chaveD= 'Nova chave123';
 
 
-console.log(objetoA);
+console.log(user.chaveC);
 
 

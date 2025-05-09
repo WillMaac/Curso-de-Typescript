@@ -13,3 +13,5 @@ body3.style.background = 'red';
 
 //HTMLElement
 const input = document.querySelector('.input') as HTMLInputElement;
+
+

@@ -1,6 +1,6 @@
 // Any representa falta de tipo, utilizar apenas em último caso//
 
-function shadowMessage(msg:any){
+function shadowMessage(msg: any){
     return msg;
 }
 

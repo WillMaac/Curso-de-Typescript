@@ -9,7 +9,7 @@ let nulo: null = null; // Valor nulo
 console.log(idade);
            //array/
 let arrayNumString: (number | string)[] =  [22, '22', '22'];
-let arrayNum:number[] = [1, 2, 3, 4]
+let arrayNum:Array<number> = [1, 2, 3, 4]
 
              //Objetos//
 

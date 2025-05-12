@@ -29,3 +29,5 @@ if (squareOfTwoNumber === null) {
 }
 
 console.log(squareOf('55'));
+
+

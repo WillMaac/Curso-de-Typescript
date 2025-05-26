@@ -8,7 +8,9 @@ type TestandoMotor = {
   testandoMotor(): void;
 };
 
-export class MeuCarro implements Carro, TestandoMotor {
+type TipoCarro = TestandoMotor & Carro;
+
+export class MeuCarro implements TipoCarro {
   constructor(public nome: string, public motor: string, public ano: number) {}
 
   testandoMotor(): void {
